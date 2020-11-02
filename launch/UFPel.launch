@@ -14,7 +14,7 @@
   <arg name="world_name" default="fase1" />
 
     <!-- supply this argument to specity a world file -->
-  <arg name="world_file" default="$(find petrobras_challenge)/worlds/UFPel/$(arg world_name).world" />
+  <arg name="world_file" default="$(find competiton_petrobras)/worlds/UFPel/$(arg world_name).world" />
 
   <!-- set use_sim_time flag -->
   <group if="$(arg use_sim_time)">

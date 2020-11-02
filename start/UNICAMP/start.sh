@@ -28,7 +28,7 @@ pre_input="export UAV_NAME=uav1; export UAV_TYPE=f450; export WORLD_FILE=./world
 input=(
   'Roscore' "roscore
 "
-  'Gazebo' "waitForRos; roslaunch petrobras_challenge simulation_arena.launch gui:=true
+  'Gazebo' "waitForRos; roslaunch competiton_petrobras UNICAMP.launch
 "
   'Spawn' "waitForSimulation; spawn_uav 1 --file uav1_pos.yaml --f450 --run --delete --enable-rangefinder --enable-rangefinder-up --enable-rplidar --enable-ground-truth --enable-bluefox-camera --enable-realsense-front
 "
@@ -36,7 +36,7 @@ input=(
 "
   'AutomaticStart' "waitForSimulation; roslaunch mrs_uav_general automatic_start.launch
 "
-  "PrepareUAV" "waitForControl; rosservice call /$UAV_NAME/mavros/cmd/arming 1; rosservice call /$UAV_NAME/mavros/set_mode 0 offboard; rosservice call /uav1/control_manager/use_safety_area \"data: false\"; rosservice call /uav1/control_manager/set_min_height \"value: 0.0\"
+  "PrepareUAV" "waitForControl; rosservice call /uav1/control_manager/use_safety_area \"data: false\"; rosservice call /$UAV_NAME/mavros/cmd/arming 1; rosservice call /$UAV_NAME/mavros/set_mode 0 offboard; rosservice call /uav1/control_manager/set_min_height \"value: 0.0\"
 "
   'Camera_follow' "waitForOdometry; gz camera -c gzclient_camera -f $UAV_NAME"
   'gazebo_camera_follow' "waitForOdometry; gz camera -c gzclient_camera -f $UAV_NAME; history -s gz camera -c gzclient_camera -f $UAV_NAME"
