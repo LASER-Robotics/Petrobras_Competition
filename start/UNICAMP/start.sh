@@ -28,7 +28,7 @@ pre_input="export UAV_NAME=uav1; export UAV_TYPE=f450; export WORLD_FILE=./world
 input=(
   'Roscore' "roscore
 "
-  'Gazebo' "waitForRos; roslaunch competiton_petrobras UNICAMP.launch
+  'Gazebo' "waitForRos; roslaunch competition_petrobras UNICAMP.launch
 "
   'Spawn' "waitForSimulation; spawn_uav 1 --file uav1_pos.yaml --f450 --run --delete --enable-rangefinder --enable-rangefinder-up --enable-rplidar --enable-ground-truth --enable-bluefox-camera --enable-realsense-front
 "

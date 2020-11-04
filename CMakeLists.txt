@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.2.0)
-project(competiton_petrobras)
+project(competition_petrobras)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)

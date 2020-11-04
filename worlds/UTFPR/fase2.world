@@ -166,13 +166,13 @@
     </model>
 
     <!-- THE SENSOR GREEN 2 MODEL -->
-    <model name="sensor_green_2">
+    <!-- <model name="sensor_green_2">
       <include>
-        <uri>model://sensor_green</uri>
+        <uri>model://sensor_green</uri> -->
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>5.1 4.4 0.3 0 -0 0</pose>
+        <!-- <pose frame=''>5.1 4.4 0.3 0 -0 0</pose>
       </include>
-    </model>
+    </model> -->
 
     <!-- THE SENSOR GREEN 3 MODEL -->
     <model name="sensor_green_3">
@@ -184,31 +184,31 @@
     </model>
 
     <!-- THE SENSOR GREEN 4 MODEL -->
-    <model name="sensor_green_4">
+    <!-- <model name="sensor_green_4">
       <include>
-        <uri>model://sensor_green</uri>
+        <uri>model://sensor_green</uri> -->
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>5.17 3.90 0.3 0 -0 0</pose>
+        <!-- <pose frame=''>5.17 3.90 0.3 0 -0 0</pose>
       </include>
-    </model>
+    </model> -->
 
     <!-- THE SENSOR GREEN 5 MODEL -->
-    <model name="sensor_green_5">
+    <!-- <model name="sensor_green_5">
       <include>
-        <uri>model://sensor_green</uri>
+        <uri>model://sensor_green</uri> -->
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>5.0 4.6 0.3 0 -0 0</pose>
+        <!-- <pose frame=''>5.0 4.6 0.3 0 -0 0</pose>
       </include>
-    </model>
+    </model> -->
 
     <!-- THE SENSOR RED 1 MODEL -->
-    <model name="sensor_red_1">
+    <!-- <model name="sensor_red_1">
       <include>
-        <uri>model://sensor_red</uri>
+        <uri>model://sensor_red</uri> -->
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>5.32 3.26 0.3 0 -0 0</pose>
+        <!-- <pose frame=''>5.32 3.26 0.3 0 -0 0</pose>
       </include>
-    </model>
+    </model> -->
 
     <!-- THE SENSOR RED 2 MODEL -->
     <model name="sensor_red_2">
@@ -238,13 +238,13 @@
     </model>
 
     <!-- THE SENSOR RED 5 MODEL -->
-    <model name="sensor_red_5">
+    <!-- <model name="sensor_red_5">
       <include>
-        <uri>model://sensor_red</uri>
+        <uri>model://sensor_red</uri> -->
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>4.6 7.15 0.3 0 -0 0</pose>
+        <!-- <pose frame=''>4.6 7.15 0.3 0 -0 0</pose>
       </include>
-    </model>
+    </model> -->
 
     <!-- THE VOID (for spawning objects out of camera view) {-->
     <model name='the_void'>

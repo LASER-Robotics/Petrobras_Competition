@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>competiton_petrobras</name>
+  <name>competition_petrobras</name>
   <version>1.0.0</version>
   <description>This package contains scripts for spawning of vehicles at petrobras arena challenge</description>
 

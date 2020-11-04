@@ -106,14 +106,14 @@
 
     <!-- THE ARENA MODEL -->
       <include>
-        <uri>model://arena_spawn</uri>
+        <uri>model://UTFPR/arena_spawn</uri>
         <!-- Pose ( x y z r p y ) -->
         <pose frame=''>1 1 0.0005 0 -0 0</pose>
       </include>
 
     <!-- THE BANNER MODEL -->
       <include>
-        <uri>model://banner</uri>
+        <uri>model://UTFPR/banner</uri>
         <!-- Pose ( x y z r p y ) -->
         <pose frame=''>1 1 0 0 -0 3.14</pose>
       </include>
@@ -121,7 +121,7 @@
     <!-- THE LAND BASE MODEL 1 -->
     <model name="land_base_1">
       <include>
-        <uri>model://land_base</uri>
+        <uri>model://UTFPR/land_base</uri>
         <!-- Pose ( x y z r p y ) -->
         <pose frame=''>2 2 0.012 0 -0 0</pose>
       </include>
@@ -130,7 +130,7 @@
     <!-- THE LAND BASE MODEL 2 -->
     <model name="land_base_2">
         <include>
-          <uri>model://land_base</uri>
+          <uri>model://UTFPR/land_base</uri>
             <!-- Pose ( x y z r p y ) -->
           <pose frame=''>3 3 0.012 0 -0 0</pose>
         </include>
@@ -139,7 +139,7 @@
       <!-- THE LAND BASE MODEL 3 -->
     <model name="land_base_3">
       <include>
-        <uri>model://land_base</uri>
+        <uri>model://UTFPR/land_base</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>4 4 0.012 0 -0 0</pose>
       </include>
@@ -148,7 +148,7 @@
     <!-- THE PIPE MODEL -->
     <model name="pipe">
       <include>
-        <uri>model://pipe</uri>
+        <uri>model://UTFPR/pipe</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>5 5 0.0005 0 -0 0</pose>
       </include>

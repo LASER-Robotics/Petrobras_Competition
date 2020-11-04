@@ -106,14 +106,14 @@
 
     <!-- THE ARENA MODEL -->
       <include>
-        <uri>model://arena_spawn</uri>
+        <uri>model://UFPel/arena_spawn</uri>
         <!-- Pose ( x y z r p y ) -->
         <pose frame=''>1 1 0.0005 0 -0 0</pose>
       </include>
 
     <!-- THE BANNER MODEL -->
       <include>
-        <uri>model://banner</uri>
+        <uri>model://UFPel/banner</uri>
         <!-- Pose ( x y z r p y ) -->
         <pose frame=''>1 1 0 0 -0 3.14</pose>
       </include>
@@ -122,7 +122,7 @@
     <!-- THE LAND BASE MODEL 1 -->
     <model name="land_base_1">
       <include>
-        <uri>model://land_base</uri>
+        <uri>model://UFPel/land_base</uri>
         <!-- Pose ( x y z r p y ) -->
         <pose frame=''>2 2 0.012 0 -0 0</pose>
       </include>
@@ -131,7 +131,7 @@
     <!-- THE LAND BASE MODEL 2 -->
     <model name="land_base_2">
         <include>
-          <uri>model://land_base</uri>
+          <uri>model://UFPel/land_base</uri>
             <!-- Pose ( x y z r p y ) -->
           <pose frame=''>3 3 0.012 0 -0 0</pose>
         </include>
@@ -140,7 +140,7 @@
       <!-- THE LAND BASE MODEL 3 -->
     <model name="land_base_3">
       <include>
-        <uri>model://land_base</uri>
+        <uri>model://UFPel/land_base</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>4 4 0.012 0 -0 0</pose>
       </include>
@@ -149,7 +149,7 @@
     <!-- THE PIPE MODEL -->
     <model name="pipe">
       <include>
-        <uri>model://pipe</uri>
+        <uri>model://UFPel/pipe</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>5 5 0.0005 0 -0 0</pose>
       </include>
@@ -157,90 +157,90 @@
 
 <!-- REMEMBER!!! IN THE CHALLENGE WIIL BE JUST 5 OF ALL SENSORS -->
     <!-- THE SENSOR GREEN 1 MODEL -->
-    <model name="sensor_green_1">
+    <!-- <model name="sensor_green_1">
       <include>
-        <uri>model://sensor_green</uri>
+        <uri>model://UFPel/sensor_green</uri> -->
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>4.95 5.15 0.3 0 -0 0</pose>
+        <!-- <pose frame=''>4.95 5.15 0.3 0 -0 0</pose>
       </include>
-    </model>
+    </model> -->
 
     <!-- THE SENSOR GREEN 2 MODEL -->
     <model name="sensor_green_2">
       <include>
-        <uri>model://sensor_green</uri>
+        <uri>model://UFPel/sensor_green</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>5.1 4.4 0.3 0 -0 0</pose>
       </include>
     </model>
 
     <!-- THE SENSOR GREEN 3 MODEL -->
-    <model name="sensor_green_3">
+    <!-- <model name="sensor_green_3">
       <include>
-        <uri>model://sensor_green</uri>
+        <uri>model://UFPel/sensor_green</uri> -->
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>5.15 4.15 0.3 0 -0 0</pose>
+        <!-- <pose frame=''>5.15 4.15 0.3 0 -0 0</pose>
       </include>
-    </model>
+    </model> -->
 
     <!-- THE SENSOR GREEN 4 MODEL -->
     <model name="sensor_green_4">
       <include>
-        <uri>model://sensor_green</uri>
+        <uri>model://UFPel/sensor_green</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>5.17 3.90 0.3 0 -0 0</pose>
       </include>
     </model>
 
     <!-- THE SENSOR GREEN 5 MODEL -->
-    <model name="sensor_green_5">
+    <!-- <model name="sensor_green_5">
       <include>
-        <uri>model://sensor_green</uri>
+        <uri>model://UFPel/sensor_green</uri> -->
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>5.0 4.6 0.3 0 -0 0</pose>
+        <!-- <pose frame=''>5.0 4.6 0.3 0 -0 0</pose>
       </include>
-    </model>
+    </model> -->
 
     <!-- THE SENSOR RED 1 MODEL -->
     <model name="sensor_red_1">
       <include>
-        <uri>model://sensor_red</uri>
+        <uri>model://UFPel/sensor_red</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>5.32 3.26 0.3 0 -0 0</pose>
       </include>
     </model>
 
     <!-- THE SENSOR RED 2 MODEL -->
-    <model name="sensor_red_2">
+    <!-- <model name="sensor_red_2">
       <include>
-        <uri>model://sensor_red</uri>
+        <uri>model://UFPel/sensor_red</uri> -->
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>4.97 5 0.3 0 -0 0</pose>
+        <!-- <pose frame=''>4.97 5 0.3 0 -0 0</pose>
       </include>
-    </model>
+    </model> -->
 
     <!-- THE SENSOR RED 3 MODEL -->
     <model name="sensor_red_3">
       <include>
-        <uri>model://sensor_red</uri>
+        <uri>model://UFPel/sensor_red</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>4.9 5 45.3 0 -0 0</pose>
       </include>
     </model>
 
     <!-- THE SENSOR RED 4 MODEL -->
-    <model name="sensor_red_4">
+    <!-- <model name="sensor_red_4">
       <include>
-        <uri>model://sensor_red</uri>
+        <uri>model://UFPel/sensor_red</uri> -->
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>4.8 6 0.3 0 -0 0</pose>
+        <!-- <pose frame=''>4.8 6 0.3 0 -0 0</pose>
       </include>
-    </model>
+    </model> -->
 
     <!-- THE SENSOR RED 5 MODEL -->
     <model name="sensor_red_5">
       <include>
-        <uri>model://sensor_red</uri>
+        <uri>model://UFPel/sensor_red</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>4.6 7.15 0.3 0 -0 0</pose>
       </include>

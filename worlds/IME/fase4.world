@@ -106,14 +106,14 @@
 
     <!-- THE ARENA MODEL -->
       <include>
-        <uri>model://arena_spawn</uri>
+        <uri>model://IME/arena_spawn</uri>
         <!-- Pose ( x y z r p y ) -->
         <pose frame=''>1 1 0.0005 0 -0 0</pose>
       </include>
 
     <!-- THE BANNER MODEL -->
       <include>
-        <uri>model://banner</uri>
+        <uri>model://IME/banner</uri>
         <!-- Pose ( x y z r p y ) -->
         <pose frame=''>1 1 0 0 -0 3.14</pose>
       </include>
@@ -122,7 +122,7 @@
     <!-- THE LAND BASE MODEL 1 -->
     <model name="land_base_1">
       <include>
-        <uri>model://land_base</uri>
+        <uri>model://IME/land_base</uri>
         <!-- Pose ( x y z r p y ) -->
         <pose frame=''>2 2 0.012 0 -0 0</pose>
       </include>
@@ -131,7 +131,7 @@
     <!-- THE LAND BASE MODEL 2 -->
     <model name="land_base_2">
         <include>
-          <uri>model://land_base</uri>
+          <uri>model://IME/land_base</uri>
             <!-- Pose ( x y z r p y ) -->
           <pose frame=''>3 3 0.012 0 -0 0</pose>
         </include>
@@ -140,7 +140,7 @@
       <!-- THE LAND BASE MODEL 3 -->
     <model name="land_base_3">
       <include>
-        <uri>model://land_base</uri>
+        <uri>model://IME/land_base</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>4 4 0.012 0 -0 0</pose>
       </include>
@@ -149,7 +149,7 @@
     <!-- THE PIPE MODEL -->
     <model name="pipe">
       <include>
-        <uri>model://pipe</uri>
+        <uri>model://IME/pipe</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>5 5 0.0005 0 -0 0</pose>
       </include>
@@ -157,35 +157,35 @@
 
     <!-- THE EQUIPMENT A MODEL -->
       <include>
-        <uri>model://equipmentA</uri>
+        <uri>model://IME/equipmentA</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>4 4 0.01 0 -0 0</pose>
       </include>
 
     <!-- THE EQUIPMENT B MODEL -->
       <include>
-        <uri>model://equipmentB</uri>
+        <uri>model://IME/equipmentB</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>3 3 0.01 0 -0 0</pose>
       </include>
 
     <!-- THE EQUIPMENT C MODEL -->
       <include>
-        <uri>model://equipmentC</uri>
+        <uri>model://IME/equipmentC</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>2 2 0.01 0 -0 0</pose>
       </include>
 
     <!-- THE EQUIPMENT D MODEL -->
       <include>
-        <uri>model://equipmentD</uri>
+        <uri>model://IME/equipmentD</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>5.0 2.0 1.67 0 -0 0</pose>
       </include>
 
     <!-- THE EQUIPMENT E MODEL -->
       <include>
-        <uri>model://equipmentE</uri>
+        <uri>model://IME/equipmentE</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>8 8 1.17 0 -0 0</pose>
       </include>
