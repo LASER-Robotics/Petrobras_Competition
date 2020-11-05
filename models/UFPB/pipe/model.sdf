@@ -18,7 +18,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://pipe/meshes/pipe.obj</uri>
+            <uri>model://UFPB/pipe/meshes/pipe.obj</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -31,7 +31,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://pipe/meshes/pipe.obj</uri>
+            <uri>model://UFPB/pipe/meshes/pipe.obj</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
