@@ -18,7 +18,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://equipmentD/meshes/equipment_D.obj</uri>
+            <uri>model://UFMG/equipmentD/meshes/equipment_D.obj</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>

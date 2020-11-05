@@ -148,7 +148,7 @@
     <!-- THE PIPE MODEL -->
     <model name="pipe">
       <include>
-        <uri>model://pipe</uri>
+        <uri>model://IME/pipe</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>5 5 0.0005 0 -0 0</pose>
       </include>
