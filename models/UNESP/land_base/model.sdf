@@ -18,7 +18,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://land_base/meshes/land_base_1.obj</uri>
+            <uri>model://UNESP/land_base/meshes/land_base_1.obj</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -31,7 +31,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://land_base/meshes/land_base_1.obj</uri>
+            <uri>model://UNESP/land_base/meshes/land_base_1.obj</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>

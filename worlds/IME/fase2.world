@@ -240,7 +240,7 @@
     <!-- THE SENSOR RED 5 MODEL -->
     <model name="sensor_red_5">
       <include>
-        <uri>model://sensor_red</uri>
+        <uri>model://IME/sensor_red</uri>
           <!-- Pose ( x y z r p y ) -->
         <pose frame=''>4.6 7.15 0.3 0 -0 0</pose>
       </include>
