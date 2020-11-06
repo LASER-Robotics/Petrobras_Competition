@@ -224,7 +224,7 @@
       <include>
         <uri>model://FURG/sensor_red</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>4.9 5 45.3 0 -0 0</pose>
+        <pose frame=''>4.9 5 0.3 0 -0 0</pose>
       </include>
     </model>
 
