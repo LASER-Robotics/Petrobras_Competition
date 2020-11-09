@@ -18,7 +18,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://sensor_red/meshes/sensor_red.obj</uri>
+            <uri>model://UTFPR/sensor_red/meshes/sensor_red.obj</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -39,7 +39,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://sensor_red/meshes/sensor_red.obj</uri>
+            <uri>model://UTFPR/sensor_red/meshes/sensor_red.obj</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
