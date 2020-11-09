@@ -133,7 +133,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://UFSJ/UFSJUFSCar/arena_spawn/meshes/Arena.obj</uri>
+              <uri>model://UFSJ/arena_spawn/meshes/Arena.obj</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -204,7 +204,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://UFSJ/UFSJUFSCar/arena_spawn/meshes/high_base_left.obj</uri>
+              <uri>model://UFSJ/arena_spawn/meshes/high_base_left.obj</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -217,7 +217,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://UFSJ/UFSJUFSCar/arena_spawn/meshes/high_base_left.obj</uri>
+              <uri>model://UFSJ/arena_spawn/meshes/high_base_left.obj</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -288,7 +288,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://UFSJ/UFSJarena_spawn/meshes/high_base_right.obj</uri>
+              <uri>model://UFSJ/arena_spawn/meshes/high_base_right.obj</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -301,7 +301,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://UFSJ/UFSJarena_spawn/meshes/high_base_right.obj</uri>
+              <uri>model://UFSJ/arena_spawn/meshes/high_base_right.obj</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>

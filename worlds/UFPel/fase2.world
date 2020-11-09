@@ -124,7 +124,7 @@
       <include>
         <uri>model://UFPel/land_base</uri>
         <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>2 2 0.012 0 -0 0</pose>
+        <pose frame=''>3 3 0.012 0 -0 0</pose>
       </include>
     </model>
 
@@ -133,7 +133,7 @@
         <include>
           <uri>model://UFPel/land_base</uri>
             <!-- Pose ( x y z r p y ) -->
-          <pose frame=''>3 3 0.012 0 -0 0</pose>
+          <pose frame=''>6 8 0.012 0 -0 0</pose>
         </include>
     </model>
     
@@ -142,7 +142,7 @@
       <include>
         <uri>model://UFPel/land_base</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>4 4 0.012 0 -0 0</pose>
+        <pose frame=''>7 6 0.012 0 -0 0</pose>
       </include>
     </model>
 
@@ -224,7 +224,7 @@
       <include>
         <uri>model://UFPel/sensor_red</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>4.9 5 0.3 0 -0 0</pose>
+        <pose frame=''>5.2 4 0.3 0 -0 0</pose>
       </include>
     </model>
 

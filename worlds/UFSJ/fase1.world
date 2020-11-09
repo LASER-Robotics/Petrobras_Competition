@@ -123,7 +123,7 @@
       <include>
         <uri>model://UFSJ/land_base</uri>
         <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>2 2 0.012 0 -0 0</pose>
+        <pose frame=''>2 7 0.012 0 -0 0</pose>
       </include>
     </model>
 
@@ -132,7 +132,7 @@
         <include>
           <uri>model://UFSJ/land_base</uri>
             <!-- Pose ( x y z r p y ) -->
-          <pose frame=''>3 3 0.012 0 -0 0</pose>
+          <pose frame=''>6 4 0.012 0 -0 0</pose>
         </include>
     </model>
     
