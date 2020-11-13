@@ -166,14 +166,14 @@
       <include>
         <uri>model://UFSJ/equipmentB</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>6 4 0.01 0 -0 0</pose>
+        <pose frame=''>4 4 0.01 0 -0 0</pose>
       </include>
 
     <!-- THE EQUIPMENT C MODEL -->
       <include>
         <uri>model://UFSJ/equipmentC</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>4 4 0.01 0 -0 0</pose>
+        <pose frame=''>8 8 1.17 0 -0 0</pose>
       </include>
 
     <!-- THE EQUIPMENT D MODEL -->
@@ -187,7 +187,7 @@
       <include>
         <uri>model://UFSJ/equipmentE</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>8 8 1.17 0 -0 0</pose>
+        <pose frame=''>6 4 0.01 0 -0 0</pose>
       </include>
     
     <!-- THE VOID (for spawning objects out of camera view) {-->

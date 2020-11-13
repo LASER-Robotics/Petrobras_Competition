@@ -166,21 +166,21 @@
       <include>
         <uri>model://IME/equipmentB</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>2 7 0.01 0 -0 0</pose>
+        <pose frame=''>5.0 2.0 1.67 0 -0 0</pose>
       </include>
 
     <!-- THE EQUIPMENT C MODEL -->
       <include>
         <uri>model://IME/equipmentC</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>7 5 0.01 0 -0 0</pose>
+        <pose frame=''>2 7 0.01 0 -0 0</pose>
       </include>
 
     <!-- THE EQUIPMENT D MODEL -->
       <include>
         <uri>model://IME/equipmentD</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>5.0 2.0 1.67 0 -0 0</pose>
+        <pose frame=''>7 5 0.01 0 -0 0</pose>
       </include>
 
     <!-- THE EQUIPMENT E MODEL -->

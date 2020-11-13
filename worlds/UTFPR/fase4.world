@@ -159,7 +159,7 @@
       <include>
         <uri>model://UTFPR/equipmentA</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>7 4 0.01 0 -0 0</pose>
+        <pose frame=''>5.0 2.0 1.67 0 -0 0</pose>
       </include>
 
     <!-- THE EQUIPMENT B MODEL -->
@@ -173,21 +173,21 @@
       <include>
         <uri>model://UTFPR/equipmentC</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>4 5 0.01 0 -0 0</pose>
+        <pose frame=''>8 8 1.17 0 -0 0</pose>
       </include>
 
     <!-- THE EQUIPMENT D MODEL -->
       <include>
         <uri>model://UTFPR/equipmentD</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>5.0 2.0 1.67 0 -0 0</pose>
+        <pose frame=''>7 4 0.01 0 -0 0</pose>
       </include>
 
     <!-- THE EQUIPMENT E MODEL -->
       <include>
         <uri>model://UTFPR/equipmentE</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>8 8 1.17 0 -0 0</pose>
+        <pose frame=''>4 5 0.01 0 -0 0</pose>
       </include>
     
     <!-- THE VOID (for spawning objects out of camera view) {-->
