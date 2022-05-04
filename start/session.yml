@@ -20,6 +20,8 @@ windows:
       layout: tiled
       panes:
         - waitForSimulation; rosservice call /mrs_drone_spawner/spawn "1 $UAV_TYPE --enable-rangefinder --enable-rplidar --pos_file `pwd`/pos.yaml"
+# IF YOU ARE USING X500 BLUE, USE THIS SPAWN, DO NOT PUT RANGEFINDER AND RPLIDAR, BLUE ALREADY HAS THIS
+       #- waitForSimulation; rosservice call /mrs_drone_spawner/spawn "1 UAV_TYPE --model-package blue --pos_file `pwd`/pos.yaml"
   - hector_slam:
       layout: tiled
       panes:
