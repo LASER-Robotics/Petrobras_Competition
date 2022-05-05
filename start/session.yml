@@ -20,6 +20,7 @@ windows:
       layout: tiled
       panes:
         - waitForSimulation; rosservice call /mrs_drone_spawner/spawn "1 $UAV_TYPE --enable-rangefinder --enable-rplidar --pos_file `pwd`/pos.yaml"
+        # - waitForSimulation; rosservice call /mrs_drone_spawner/spawn "1 UAV_TYPE --model-package blue --pos_file `pwd`/pos.yaml"
   - hector_slam:
       layout: tiled
       panes:
