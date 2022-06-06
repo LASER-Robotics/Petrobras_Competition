@@ -161,7 +161,7 @@
       <include>
         <uri>model://sensor_green</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>4.95 5.15 0.3 0 -0 0</pose>
+        <pose frame=''>7.534 5.842 0.3 0 -0 0</pose>
       </include>
     </model>
 
@@ -170,7 +170,7 @@
       <include>
         <uri>model://sensor_green</uri> -->
           <!-- Pose ( x y z r p y ) -->
-        <!-- <pose frame=''>5.1 4.4 0.3 0 -0 0</pose>
+        <!-- <pose frame=''>2.441 1.509 0.3 0 -0 0</pose>
       </include>
     </model> -->
 
@@ -179,7 +179,7 @@
       <include>
         <uri>model://sensor_green</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>5.15 4.15 0.3 0 -0 0</pose>
+        <pose frame=''>4.042 2.871 0.3 0 -0 0</pose>
       </include>
     </model>
 
@@ -188,7 +188,7 @@
       <include>
         <uri>model://sensor_green</uri> -->
           <!-- Pose ( x y z r p y ) -->
-        <!-- <pose frame=''>5.17 3.90 0.3 0 -0 0</pose>
+        <!-- <pose frame=''>5.533 4.140 0.3 0 -0 0</pose>
       </include>
     </model> -->
 
@@ -197,7 +197,7 @@
       <include>
         <uri>model://sensor_green</uri> -->
           <!-- Pose ( x y z r p y ) -->
-        <!-- <pose frame=''>5.0 4.6 0.3 0 -0 0</pose>
+        <!-- <pose frame=''>6.308 4.9 0.3 0 -0 0</pose>
       </include>
     </model> -->
 
@@ -206,7 +206,7 @@
       <include>
         <uri>model://sensor_red</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>5.32 3.26 0.3 0 -0 0</pose>
+        <pose frame=''>6.178 4.689 0.3 0 -0 0</pose>
       </include>
     </model>
 
@@ -215,7 +215,7 @@
       <include>
         <uri>model://sensor_red</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>4.97 5 0.3 0 -0 0</pose>
+        <pose frame=''>3.392 2.318 0.3 0 -0 0</pose>
       </include>
     </model>
 
@@ -224,7 +224,7 @@
       <include>
         <uri>model://sensor_red</uri> -->
           <!-- Pose ( x y z r p y ) -->
-        <!-- <pose frame=''>5.2 4 0.3 0 -0 0</pose>
+        <!-- <pose frame=''>4.626 3.368 0.3 0 -0 0</pose>
       </include>
     </model> -->
 
@@ -233,7 +233,7 @@
       <include>
         <uri>model://sensor_red</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>4.8 6 0.3 0 -0 0</pose>
+        <pose frame=''>7.01 5.4 0.3 0 -0 0</pose>
       </include>
     </model>
 
@@ -242,7 +242,7 @@
       <include>
         <uri>model://sensor_red</uri> -->
           <!-- Pose ( x y z r p y ) -->
-        <!-- <pose frame=''>4.6 7.15 0.3 0 -0 0</pose>
+        <!-- <pose frame=''>2.441 1.s509 0.3 0 -0 0</pose>
       </include>
     </model> -->
 
