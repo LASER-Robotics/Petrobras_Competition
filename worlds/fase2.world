@@ -155,97 +155,41 @@
       </include>
     </model>
 
-<!-- REMEMBER!!! IN THE CHALLENGE WIIL BE JUST 5 OF ALL SENSORS -->
-    <!-- THE SENSOR GREEN 1 MODEL -->
-    <model name="sensor_green_1">
+    <!-- THE EQUIPMENT A MODEL -->
       <include>
-        <uri>model://sensor_green</uri>
+        <uri>model://equipmentA</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>7.534 5.842 0.3 0 -0 0</pose>
+        <pose frame=''>4 5 0.01 0 -0 0</pose>
       </include>
-    </model>
 
-    <!-- THE SENSOR GREEN 2 MODEL -->
-    <!-- <model name="sensor_green_2">
+    <!-- THE EQUIPMENT B MODEL -->
       <include>
-        <uri>model://sensor_green</uri> -->
+        <uri>model://equipmentB</uri>
           <!-- Pose ( x y z r p y ) -->
-        <!-- <pose frame=''>2.441 1.509 0.3 0 -0 0</pose>
+        <pose frame=''>6 7 0.01 0 -0 0</pose>
       </include>
-    </model> -->
 
-    <!-- THE SENSOR GREEN 3 MODEL -->
-    <model name="sensor_green_3">
+    <!-- THE EQUIPMENT C MODEL -->
       <include>
-        <uri>model://sensor_green</uri>
+        <uri>model://equipmentC</uri>
           <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>4.042 2.871 0.3 0 -0 0</pose>
+        <pose frame=''>2 3 0.01 0 -0 0</pose>
       </include>
-    </model>
 
-    <!-- THE SENSOR GREEN 4 MODEL -->
-    <!-- <model name="sensor_green_4">
+    <!-- THE EQUIPMENT D MODEL -->
       <include>
-        <uri>model://sensor_green</uri> -->
+        <uri>model://equipmentD</uri>
           <!-- Pose ( x y z r p y ) -->
-        <!-- <pose frame=''>5.533 4.140 0.3 0 -0 0</pose>
+        <pose frame=''>5.0 2.0 1.67 0 -0 0</pose>
       </include>
-    </model> -->
 
-    <!-- THE SENSOR GREEN 5 MODEL -->
-    <!-- <model name="sensor_green_5">
+    <!-- THE EQUIPMENT E MODEL -->
       <include>
-        <uri>model://sensor_green</uri> -->
+        <uri>model://equipmentE</uri>
           <!-- Pose ( x y z r p y ) -->
-        <!-- <pose frame=''>6.308 4.9 0.3 0 -0 0</pose>
+        <pose frame=''>8 8 1.17 0 -0 0</pose>
       </include>
-    </model> -->
-
-    <!-- THE SENSOR RED 1 MODEL -->
-    <model name="sensor_red_1">
-      <include>
-        <uri>model://sensor_red</uri>
-          <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>6.178 4.689 0.3 0 -0 0</pose>
-      </include>
-    </model>
-
-    <!-- THE SENSOR RED 2 MODEL -->
-    <model name="sensor_red_2">
-      <include>
-        <uri>model://sensor_red</uri>
-          <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>3.392 2.318 0.3 0 -0 0</pose>
-      </include>
-    </model>
-
-    <!-- THE SENSOR RED 3 MODEL -->
-    <!-- <model name="sensor_red_3">
-      <include>
-        <uri>model://sensor_red</uri> -->
-          <!-- Pose ( x y z r p y ) -->
-        <!-- <pose frame=''>4.626 3.368 0.3 0 -0 0</pose>
-      </include>
-    </model> -->
-
-    <!-- THE SENSOR RED 4 MODEL -->
-    <model name="sensor_red_4">
-      <include>
-        <uri>model://sensor_red</uri>
-          <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>7.01 5.4 0.3 0 -0 0</pose>
-      </include>
-    </model>
-
-    <!-- THE SENSOR RED 5 MODEL -->
-    <!-- <model name="sensor_red_5">
-      <include>
-        <uri>model://sensor_red</uri> -->
-          <!-- Pose ( x y z r p y ) -->
-        <!-- <pose frame=''>2.441 1.s509 0.3 0 -0 0</pose>
-      </include>
-    </model> -->
-
+    
     <!-- THE VOID (for spawning objects out of camera view) {-->
     <model name='the_void'>
       <static>1</static>
@@ -279,8 +223,11 @@
         <pose>-60 -100 30 0 0.4 0.89</pose>
       </camera>
     </gui>
-    <!--}-->
+    <!--}--> 
 
+    <!-- gripper plugin  {-->
+      <plugin name="ros_link_attacher_plugin" filename="libgazebo_ros_link_attacher.so"/>
+      <!-- } -->
     <!-- GUI frame synchronization {-->
     <plugin name="mrs_gazebo_rviz_cam_synchronizer" filename="libMRSGazeboRvizCameraSynchronizer.so" >
       <target_frame_id>gazebo_user_camera</target_frame_id>
