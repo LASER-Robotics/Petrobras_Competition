@@ -115,7 +115,7 @@
       <include>
         <uri>model://banner</uri>
         <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>1 1 0 0 -0 3.14</pose>
+        <pose frame=''>1 8.25 0.5 0 -0 1.569204</pose>
       </include>
 
     <!-- THE LAND BASE MODEL 1 -->
@@ -144,16 +144,7 @@
         <pose frame=''>2 3 0 0 -0 0</pose>
       </include>
     </model>
-
-    <!-- THE PIPE MODEL -->
-    <model name="pipe">
-      <include>
-        <uri>model://pipe</uri>
-          <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>5 3.7 0.0005 0 -0 0.7</pose>
-      </include>
-    </model>
-    
+   
     <!-- THE VOID (for spawning objects out of camera view) {-->
     <model name='the_void'>
       <static>1</static>
