@@ -110,15 +110,7 @@
         <!-- Pose ( x y z r p y ) -->
         <pose frame=''>1 1 0.0005 0 -0 0</pose>
       </include>
-
-    <!-- THE BANNER MODEL -->
-      <include>
-        <uri>model://banner</uri>
-        <!-- Pose ( x y z r p y ) -->
-        <pose frame=''>1 8.25 0.5 0 -0 1.569204</pose>
-      </include>
-
-
+  
     <!-- THE LAND BASE MODEL 1 -->
     <model name="land_base_1">
       <include>
