@@ -51,12 +51,9 @@ windows:
       panes:
         - waitForControl; roslaunch mrs_uav_testing rviz.launch
         - waitForControl; roslaunch mrs_rviz_plugins load_robot.launch
-  - easy_control:
-      layout: tiled
+  - grip:
+      layout: even-vertical
       panes:
-        - waitForControl; waitForControl; roslaunch mrs_uav_general logitech_joystick.launch
-        - waitForControl; waitForControl; roslaunch mrs_rviz_plugins rviz_interface.launch
-  - layout:
-      layout: tiled
-      panes:
-        - waitForControl; sleep 3; ~/.i3/layout_manager.sh ./layout.json
+        - 'waitForControl; roslaunch controller_g ControllerG.launch'
+        - 'history -s rosservice call /uav1/control_manager/controller_gripper'
+ 
