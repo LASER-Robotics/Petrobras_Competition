@@ -10,7 +10,7 @@ windows:
   - gazebo:
       layout: tiled
       panes:
-        - waitForRos; roslaunch petrobras_challenge simulation.launch world_name:=fase1 gui:=true
+        - waitForRos; roslaunch petrobras_challenge simulation.launch world_name:=fase4 gui:=true
         # - waitForOdometry; gz camera -c gzclient_camera -f uav1; history -s gz camera -c gzclient_camera -f uav1
   - status:
       layout: tiled
@@ -19,7 +19,10 @@ windows:
   - spawn:
       layout: tiled
       panes:
-        - waitForSimulation; rosservice call /mrs_drone_spawner/spawn "1 $UAV_TYPE --enable-rangefinder --enable-rplidar --pos_file `pwd`/pos.yaml"
+        # - waitForSimulation; rosservice call /mrs_drone_spawner/spawn "1 $UAV_TYPE --enable-rangefinder --enable-rplidar --pos_file `pwd`/pos.yaml"
+# IF YOU ARE USING X500 BLUE, USE THIS SPAWN, DO NOT PUT RANGEFINDER AND RPLIDAR, BLUE ALREADY HAS THIS
+       - waitForSimulation; rosservice call /mrs_drone_spawner/spawn "1 UAV_TYPE --model-package blue --pos_file `pwd`/pos.yaml"
+       - waitForSimulation; roslaunch robot_description spawn.launch
   - hector_slam:
       layout: tiled
       panes:
